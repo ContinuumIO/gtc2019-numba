@@ -17,7 +17,7 @@ docker build -t numba_gtc2019:latest --build-arg BRANCH=master ./notebooks
 Run the notebook with:
 
 ```bash
-nvidia-docker run -p 8888:8888 -it numba_gtc2019:latest
+nvidia-docker run -p 9999:9999 -it numba_gtc2019:latest
 ```
 
 It will start the jupyter notebook automatically.
