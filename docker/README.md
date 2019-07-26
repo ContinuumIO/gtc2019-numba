@@ -3,7 +3,7 @@
 To build the images:
 
 ```bash
-docker build -t conda_cuda_base:latest ./base
+docker build -t conda_cuda_base_2019:latest ./base
 docker build -t numba_gtc2019:latest ./notebooks
 ```
 
